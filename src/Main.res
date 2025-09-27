@@ -9,3 +9,6 @@ switch ReactDOM.querySelector("#root") {
   )
 | None => ()
 }
+/* Deprecated ReScript bootstrap. App now boots from TypeScript: src/main.tsx */
+
+%%raw("/* deprecated: Main.res - see src/main.tsx */")
