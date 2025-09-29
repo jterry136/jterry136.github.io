@@ -22,12 +22,3 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-
-# ReScript
-/lib/
-.bsb.lock
-.merlin
-**/*.res
-**/*.resi
-**/*.bs.mjs
-.cache

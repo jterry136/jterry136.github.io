@@ -1,59 +1,35 @@
-import React, { useEffect, useState } from 'react'
-import PostList from './components/PostList'
-import PostView from './components/PostView'
+import { useState } from 'react'
+import reactLogo from './assets/react.svg'
+import viteLogo from '/vite.svg'
+import './App.css'
 
-type PostMeta = {
-  path: string
-  slug: string
-  title: string
-  date?: string | null
-  tags?: string[]
-  excerpt?: string
-  content?: string
-}
-
-export default function App(): JSX.Element {
-  const [posts, setPosts] = useState<PostMeta[]>([])
-  const [selected, setSelected] = useState<PostMeta | null>(null)
-
-  // Load list of posts from the "posts" directory
-  async function loadPosts() {
-    const response = await fetch('/posts/post1.md');
-    const text = await response.text();
-    console.log("Printing something.....")
-    console.log(text);
-  }
-
-  loadPosts();
+function App() {
+  const [count, setCount] = useState(0)
 
   return (
-    <div className="min-h-screen bg-gray-50 text-gray-900">
-      <div className="visual-header">
-        <div className="site-container">
-          <header className="site-header">
-            <div>
-              <div className="site-title">This Week abcdefg in Cyber</div>
-              <div className="muted">An open source aggregation of current cyber events</div>
-            </div>
-          </header>
-        </div>
+    <>
+      <div>
+        <a href="https://vite.dev" target="_blank">
+          <img src={viteLogo} className="logo" alt="Vite logo" />
+        </a>
+        <a href="https://react.dev" target="_blank">
+          <img src={reactLogo} className="logo react" alt="React logo" />
+        </a>
       </div>
-      <div className="site-container py-10">
-
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mt-8">
-          <aside className="md:col-span-1">
-            <div className="card">
-              <h2 className="font-semibold mb-3">Posts</h2>
-              <PostList posts={posts} onSelect={setSelected} selected={selected} />
-            </div>
-          </aside>
-          <main className="md:col-span-3">
-            <div className="card">
-              {selected ? <PostView post={selected} /> : <div className="muted">No post selected</div>}
-            </div>
-          </main>
-        </div>
+      <h1>Vite + React</h1>
+      <div className="card">
+        <button onClick={() => setCount((count) => count + 1)}>
+          count is {count}
+        </button>
+        <p>
+          Edit <code>src/App.tsx</code> and save to test HMR
+        </p>
       </div>
-    </div>
+      <p className="read-the-docs">
+        Click on the Vite and React logos to learn more
+      </p>
+    </>
   )
 }
+
+export default App
