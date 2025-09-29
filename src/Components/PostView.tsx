@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react'
 import ReactMarkdown from 'react-markdown'
 
-
 type Post = string
 
 function PostView({filepath}: {filepath: string}) {
@@ -20,10 +19,8 @@ function PostView({filepath}: {filepath: string}) {
     }
   })
 
-
-
   return (
-    <div>
+    <div className="w-3/4 p-4 m-4 rounded shadow-lg">
       <h2>Preview</h2>
       <div className="preview">
         <ReactMarkdown>{post}</ReactMarkdown>

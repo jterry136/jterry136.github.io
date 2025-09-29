@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import PostCard from './PostCard'
 
 function PostList({setFilepath}: {setFilepath: (arg0: string) => void}) {
   let [posts, setPosts] = useState<string[]>([]);
@@ -11,13 +12,14 @@ function PostList({setFilepath}: {setFilepath: (arg0: string) => void}) {
       });
   }
 
-
   let postElementList = posts.map((post, index) => {
-    return <div key={index} onClick={() => setFilepath(post)}>{post}</div>
+    return <PostCard key={index} post={post} setFilepath={setFilepath} />
   });
 
   return (
-    <div>
+    <div className="w-1/4 m-4 border border-blue-700 rounded shadow-lg">
+      <div className="px-4 py-2">Article Summaries</div>
+      <div className="px-4 py-2">Summaries of current events in the cyber security landscape</div>
       {postElementList}
     </div>
   )
