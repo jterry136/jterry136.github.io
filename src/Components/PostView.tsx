@@ -22,10 +22,8 @@ function PostView({filepath}: {filepath: string}) {
   console.log(post)
 
   return (
-    <div className="w-3/4 p-4 m-4 rounded shadow-lg">
-      <div className="preview prose lg:prose-xl">
+    <div className="max-w-3/4 p-4 m-4 prose lg:prose-xl rounded shadow-lgr">
         <ReactMarkdown>{post}</ReactMarkdown>
-      </div>
     </div>
   );
 }
