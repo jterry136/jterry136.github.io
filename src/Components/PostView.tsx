@@ -19,10 +19,11 @@ function PostView({filepath}: {filepath: string}) {
     }
   })
 
+  console.log(post)
+
   return (
     <div className="w-3/4 p-4 m-4 rounded shadow-lg">
-      <h2>Preview</h2>
-      <div className="preview">
+      <div className="preview prose lg:prose-xl">
         <ReactMarkdown>{post}</ReactMarkdown>
       </div>
     </div>
