@@ -1,0 +1,4 @@
+ Cyberattack on JLR Prompts £1.5 Billion UK Government Intervention .md
+ Harrods suffers new data breach exposing 430,000 customer records .md
+ Malicious MCP Server Exfiltrates Secrets via BCC .md
+DoH Downgrade An Unintended Backdoor to Unencrypted DNS.md
