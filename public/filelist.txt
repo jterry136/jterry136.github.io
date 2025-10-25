@@ -1,4 +1,24 @@
+ Auction house Sotheby's finds its data on the block after cyberattack .md
+ AWS outage crashes Amazon, Prime Video, Fortnite, Perplexity and more .md
+ Chinese hackers exploiting VMware zero-day since October 2024 .md
+ Clop Ransomware group claims the hack of Harvard University .md
+ Critical WD My Cloud bug allows remote command injection .md
  Cyberattack on JLR Prompts £1.5 Billion UK Government Intervention .md
+ Cyberattackers Target LastPass, Top Password Managers .md
+ Europol dismantles SIM box operation renting numbers for cybercrime .md
+ FBI takes down BreachForums portal used for Salesforce extortion .md
+ Hackers exploiting zero-day in Gladinet file sharing software .md
  Harrods suffers new data breach exposing 430,000 customer records .md
  Malicious MCP Server Exfiltrates Secrets via BCC .md
+ Nearly 50,000 Cisco firewalls vulnerable to actively exploited flaws .md
+ New Android Banking Trojan “Klopatra” Uses Hidden VNC to Control Infected Smartphones .md
+ OneLogin Bug Let Attackers Use API Keys to Steal OIDC Secrets and Impersonate Apps .md
+ Organizations Warned of Exploited Meteobridge Vulnerability .md
+ Security Concerns Shadow Vibe Coding Adoption .md
+ Self-spreading GlassWorm malware hits OpenVSX, VS Code registries .md
+ Sharepoint ToolShell attacks targeted orgs across four continents .md
+ US Charges Cambodian Executive in Massive Crypto Scam and Seizes More Than $14 Billion in Bitcoin .md
+ Vidar Stealer 2.0 adds multi-threaded data theft, better evasion .md
+ Winos 4.0 hackers expand to Japan and Malaysia with new malware .md
+CVE-2025-61585 - Apache Felix Unvalidated User Input.md
 DoH Downgrade An Unintended Backdoor to Unencrypted DNS.md
