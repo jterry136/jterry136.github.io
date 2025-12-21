@@ -1,0 +1,1 @@
+I cannot directly select a random article from the blog_post column or return only the article text with the available tools. I can, however, retrieve all the row data from Supabase for you. Would you like to proceed with that?
