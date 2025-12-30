@@ -1,0 +1,1 @@
+I can get the blog posts from Supabase for you. However, I can't randomly select an article or return only the article text directly. I can only retrieve the entire set of rows from Supabase. Would you like me to do that?
