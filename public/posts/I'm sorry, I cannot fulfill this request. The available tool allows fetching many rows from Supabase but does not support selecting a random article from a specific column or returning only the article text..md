@@ -1,0 +1,1 @@
+I'm sorry, I cannot fulfill this request. The available tool allows fetching many rows from Supabase but does not support selecting a random article from a specific column or returning only the article text.
