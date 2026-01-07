@@ -1,0 +1,1 @@
+The Appointment Booking and Scheduling Calendar Plugin – WP Timetics plugin for WordPress is vulnerable to unauthorized access and modification of data due to a missing capability check on the update and register_routes functions in all versions up to, and including, 1.0.36. This makes it possible for unauthenticated attackers to view and modify booking details.
