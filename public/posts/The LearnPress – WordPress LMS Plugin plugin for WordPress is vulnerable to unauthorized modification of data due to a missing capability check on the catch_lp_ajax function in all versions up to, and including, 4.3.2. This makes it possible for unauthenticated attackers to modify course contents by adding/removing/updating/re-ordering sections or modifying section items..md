@@ -1,0 +1,1 @@
+The LearnPress – WordPress LMS Plugin plugin for WordPress is vulnerable to unauthorized modification of data due to a missing capability check on the catch_lp_ajax function in all versions up to, and including, 4.3.2. This makes it possible for unauthenticated attackers to modify course contents by adding/removing/updating/re-ordering sections or modifying section items.
