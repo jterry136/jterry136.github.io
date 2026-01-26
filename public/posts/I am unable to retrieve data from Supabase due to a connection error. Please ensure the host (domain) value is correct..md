@@ -1,0 +1,1 @@
+I am unable to retrieve data from Supabase due to a connection error. Please ensure the host (domain) value is correct.
