@@ -1,0 +1,1 @@
+I'm sorry, I was unable to retrieve the blog post data from Supabase. The connection to Supabase could not be established. Therefore, I cannot select and return a random article from the blog_post column.
