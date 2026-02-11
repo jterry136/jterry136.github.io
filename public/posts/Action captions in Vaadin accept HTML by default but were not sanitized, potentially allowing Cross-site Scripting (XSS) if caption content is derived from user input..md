@@ -1,0 +1,1 @@
+Action captions in Vaadin accept HTML by default but were not sanitized, potentially allowing Cross-site Scripting (XSS) if caption content is derived from user input.
