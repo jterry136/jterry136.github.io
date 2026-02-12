@@ -1,0 +1,1 @@
+A timing side-channel was discovered in the Decompose algorithm which is used during ML-DSA signing to generate hints for the signature. This issue has been patched in version 0.1.0-rc.2.
